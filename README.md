@@ -1,3 +1,7 @@
+# Projet EVE
+
+Ce projet est réalisé par des étudiants de l'UTT dans le cadre d'un projet étudiant.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
