@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import EventSearch from './components/EventSearch';
 
 
 class App extends Component {
@@ -10,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div className="Temporaire"></div>
+        <EventSearch />
         <Footer />
       </div>
     );
