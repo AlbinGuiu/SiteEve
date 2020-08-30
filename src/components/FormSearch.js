@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-import { InputGroup, FormControl, Form, Col, Button } from 'react-bootstrap'
+import { InputGroup, Form, Col, Button } from 'react-bootstrap'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { registerLocale } from  "react-datepicker";
 import fr from 'date-fns/locale/fr';
+
+import City from './City';
 
 
 
@@ -46,15 +48,7 @@ class FormSearch extends Component {
                             
                         </Col>
                         <Col>
-                            <InputGroup className="mb-3">
-                                <InputGroup.Prepend>
-                                    <InputGroup.Text id="inputGroup-sizing-default">Lieu</InputGroup.Text>
-                                </InputGroup.Prepend>
-                                <FormControl
-                                    aria-label="Default"
-                                    aria-describedby="inputGroup-sizing-default"
-                                />   
-                            </InputGroup>
+                            <City />
                         </Col>
                         <Col>
                         <InputGroup className="mb-3">
