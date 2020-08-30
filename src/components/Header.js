@@ -10,7 +10,9 @@ class Header extends Component {
         <Container>
           <Row className="Banniere">
             <Col xs={6} md={2} className="Logosection">
-              <Image className="Logo" height="120" width="120" src="https://images-na.ssl-images-amazon.com/images/I/41dBPiMMgTL._AC_SX466_.jpg" rounded />
+              <a href="/" target="_blank" rel="noopener noreferrer" alt="Accueil">
+                <Image className="Logo" height="120" width="120" src="https://images-na.ssl-images-amazon.com/images/I/41dBPiMMgTL._AC_SX466_.jpg" rounded />
+              </a>
             </Col>
             <Col xs={6} md={6}>
               <h1>L'évènement sportif</h1>
@@ -29,10 +31,10 @@ class Header extends Component {
 
         <div className="Navbar">
           <Nav className="justify-content-end Navbar">
-              <Nav.Link className="LinkNav" href="">Nos articles</Nav.Link>
-              <Nav.Link className="LinkNav" href="">Agenda</Nav.Link>
-              <Nav.Link className="LinkNav" href="">Proposer / Promouvoir</Nav.Link>
-              <Nav.Link className="LinkNav" href="">Qui sommes nous?</Nav.Link>
+              <Nav.Link className="LinkNav" href="/articles">Nos articles</Nav.Link>
+              <Nav.Link className="LinkNav" href="/agenda">Agenda</Nav.Link>
+              <Nav.Link className="LinkNav" href="/promo">Proposer / Promouvoir</Nav.Link>
+              <Nav.Link className="LinkNav" href="/about">Qui sommes nous?</Nav.Link>
           </Nav>
         </div>
       </div>
