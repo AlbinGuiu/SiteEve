@@ -10,7 +10,7 @@ class Header extends Component {
         <Container>
           <Row className="Banniere">
             <Col xs={6} md={2} className="Logosection">
-              <a href="/" target="_blank" rel="noopener noreferrer" alt="Accueil">
+              <a href="/" rel="noopener noreferrer" alt="Accueil">
                 <Image className="Logo" height="120" width="120" src="https://images-na.ssl-images-amazon.com/images/I/41dBPiMMgTL._AC_SX466_.jpg" rounded />
               </a>
             </Col>
