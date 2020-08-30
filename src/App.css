@@ -1,4 +1,54 @@
 .App {
   text-align: center;
 }
+.Temporaire {
+  height: 650px;
+  background-color: turquoise;
+}
+
+.Banniere {
+  padding-top: 15px;
+  text-align: left;
+}
+.Banniere h1 {
+  margin-top: 15px;
+}
+.Banniere h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.Logosection {
+  text-align: right;
+}
+.Socialsection {
+  text-align: right;
+}
+.SocialMedia {
+  margin-top: 40px;
+}
+.SocialMedia i {
+  font-size: 50px;
+  color: #ddd;
+  padding: 0 15px;
+}
+.SocialMedia i:last-child {
+  font-size: 50px;
+  color: #ddd;
+  padding: 0 0 0 15px;
+}
+
+.Navbar {
+  background-color: white;
+  color: black;
+  padding: 10px  90px 10px 0;
+}
+.LinkNav {
+  color: black;
+}
+footer {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+}
 
