@@ -30,7 +30,7 @@ class FormSearch extends Component {
             <div className="FormSearch">
                 <Form>
                     <Form.Row>
-                        <Col>
+                        <Col xs={6} md={3}>
                             <InputGroup className="mb-3">
                                 <InputGroup.Prepend>
                                     <InputGroup.Text id="inputGroup-sizing-default">Discipline</InputGroup.Text>
@@ -45,7 +45,7 @@ class FormSearch extends Component {
                             </InputGroup>
                             
                         </Col>
-                        <Col>
+                        <Col xs={6} md={3}>
                             <InputGroup className="mb-3">
                                 <InputGroup.Prepend>
                                     <InputGroup.Text id="inputGroup-sizing-default">Lieu</InputGroup.Text>
@@ -56,24 +56,24 @@ class FormSearch extends Component {
                                 />   
                             </InputGroup>
                         </Col>
-                        <Col>
-                        <InputGroup className="mb-3">
-                                <InputGroup.Prepend>
-                                    <InputGroup.Text id="inputGroup-sizing-default">Date</InputGroup.Text>
-                                </InputGroup.Prepend>
-                                
-                                    <DatePicker
-                                        className="DatePicker" 
-                                        selected={this.state.startDate}
-                                        onChange={this.handleChange}
-                                        dateFormat="PPP"
-                                        locale="fr"
-                                    />
-                                
-                            </InputGroup>
+                        <Col xs={6} md={3}>
+                            
+                                <InputGroup className="mb-3">
+                                    <InputGroup.Prepend>
+                                        <InputGroup.Text id="inputGroup-sizing-default">Date</InputGroup.Text>
+                                    </InputGroup.Prepend>
+                                        <DatePicker
+                                            className="DatePicker" 
+                                            selected={this.state.startDate}
+                                            onChange={this.handleChange}
+                                            dateFormat="PPP"
+                                            locale="fr"
+                                        />  
+                                </InputGroup>
+                            
                         </Col>
-                        <Col>
-                            <Button variant="outline-secondary">Rechercher</Button>{' '}
+                        <Col xs={6} md={3}>
+                            <Button variant="outline-secondary" className="SearchButton">Rechercher</Button>{' '}
                         </Col>
                     </Form.Row>
                 </Form>

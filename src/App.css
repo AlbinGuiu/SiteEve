@@ -1,3 +1,7 @@
+body {
+  max-width: 1280px;
+}
+
 .App {
   text-align: center;
 }
@@ -25,6 +29,7 @@
 .Banniere {
   padding-top: 15px;
   text-align: left;
+
 }
 .Banniere h1 {
   margin-top: 15px;
@@ -56,21 +61,25 @@
 .Navbar {
   background-color: white;
   color: black;
-  padding: 10px  90px 10px 0;
+  padding: 10px  30px 10px 0;
 }
 .LinkNav {
   color: black;
 }
 .EventSearch {
-  background: #bbbbbb ;
-  height: 400px;
+  background: url(../src/images/recherche.jpg) fixed no-repeat;
+   
+  width: 100%;
+  height: 550px;
+  
   text-align: left;
-  padding: 10px 90px;
+  padding: 10px 100px;
+  
 }
 .EventSearch h2 {
-  margin-top: 200px;
+  margin-top: 350px;
   font-size: 28px;
-  
+  color: yellow;
 }
 .DatePicker {
   display: block;
@@ -87,15 +96,46 @@
   border-radius: 0 .25rem .25rem 0;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
-
-
-
+.SearchButton {
+  color: black !important;
+  border: black solid 1.5px !important;
+}
+.SearchButton:hover {
+  color: white !important;
+  background-color: black !important;
+}
+.FirstEvents {
+  text-align: left;
+  padding: 10px 90px;
+}
+.justify {
+  text-align: justify;
+}
+.CardIMG {
+  width: 100%;
+	height: 220px;
+	overflow: hidden;
+  border-radius: 2px 2px 0 0;
+  
+}
+.Cardimg {
+  width: 100%;
+	
+}
+.testParis {
+  position: relative !important;
+  bottom: 100px !important;
+}
+.FirstArticles {
+  text-align: left;
+  padding: 10px 90px;
+}
 
 footer {
   background-color: black;
   color: white;
   font-weight: bold;
   padding: 20px;
+  text-align: center;
 }
 

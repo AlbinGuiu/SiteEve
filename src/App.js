@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import EventSearch from './components/EventSearch';
-
+import FirstEvents from './components/FirstEvents';
+import FirstArticles from './components/FirstArticles';
 
 class App extends Component {
   render () {
@@ -12,6 +13,8 @@ class App extends Component {
       <div className="App">
         <Header />
         <EventSearch />
+        <FirstEvents />
+        <FirstArticles />
         <Footer />
       </div>
     );

@@ -15,7 +15,7 @@ class Header extends Component {
               </a>
             </Col>
             <Col xs={6} md={6}>
-              <h1>L'évènement sportif</h1>
+              <h1>L'événement sportif</h1>
               <h3>Agenda, Actus, Découverte</h3>
             </Col>
             <Col xs={6} md={4} className="Socialsection">
